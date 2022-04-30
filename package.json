@@ -1,0 +1,30 @@
+{
+  "name": "dwarv.it",
+  "version": "1.0.0",
+  "description": "A url shortener API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderunnerx/Dwarv.it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderunnerx/Dwarv.it/issues"
+  },
+  "homepage": "https://github.com/coderunnerx/Dwarv.it#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
